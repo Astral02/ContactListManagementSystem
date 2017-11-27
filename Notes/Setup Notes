@@ -1,0 +1,8 @@
+To create a new application : ng new <applicationName> 
+To run the application      : ng serve . Keep it running and it will scans for any change and rebuild the app automatically.
+To add bootstrap            : 
+    npm install -- save bootstrap . navigate to applicatin folder and then run the command. 
+    Add the below command to angular-cli file under the style section
+    "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    TO check if bootstrap is loaded, inspect the head tag. Under the style tag, there will be refrence to bootstrap.
+Added a header component in app folder by manually creating the files(not via ng generate component)
