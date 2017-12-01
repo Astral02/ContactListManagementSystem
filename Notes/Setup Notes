@@ -6,3 +6,8 @@ To add bootstrap            :
     "../node_modules/bootstrap/dist/css/bootstrap.min.css"
     TO check if bootstrap is loaded, inspect the head tag. Under the style tag, there will be refrence to bootstrap.
 Added a header component in app folder by manually creating the files(not via ng generate component)
+
+Directives --> Manipluates the DOM 
+Structured Directives --> starts with * and Manipluates the DOM. *ngif and *ngFor. Case sensitive.
+ngSwitch and ngClass are other directives. 
+
